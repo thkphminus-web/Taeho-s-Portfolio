@@ -727,7 +727,7 @@ export const patents: Patent[] = [
     id: "WO2026005103",
     date: "2026/01/02",
     inventors: "Edward J. Park, Tae-Ho Kim",
-    status: "Filed (South Korea)"
+    status: "Filed (South Korea, Canada, USA)"
   },
   {
     title: "Electrical sensor and blood pressure monitoring system",

@@ -415,7 +415,7 @@ export default function App() {
             
             {/* Left Main Title Block */}
             <div className="lg:col-span-8 space-y-4">
-              <h1 className="text-lg sm:text-xl md:text-2xl lg:text-[1.52rem] xl:text-[1.88rem] font-extrabold text-white font-display tracking-tight leading-normal lg:whitespace-nowrap" id="hero-title">
+              <h1 className="text-base sm:text-lg md:text-xl lg:text-[1.3rem] xl:text-[1.5rem] font-extrabold text-white font-display tracking-tight leading-normal lg:whitespace-nowrap" id="hero-title">
                 Hardware-Software Co-Design for Next-Gen Wearables & Embedded AI
               </h1>
 
