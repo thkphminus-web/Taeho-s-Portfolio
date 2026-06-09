@@ -167,7 +167,8 @@ export const educationHistory: Education[] = [
     period: "2019.05 ~ 2023.04",
     department: "School of Mechatronic Systems Engineering",
     details: "Thesis: 3D Printed Architecture Sensors",
-    advisor: "Prof. Woo Soo Kim, Prof. Carolyn Sparrey, Prof. Edward J. Park"
+    advisor: "Prof. Woo Soo Kim, Prof. Carolyn Sparrey, Prof. Edward J. Park",
+    award: "Graduate Dean’s Entrance Scholarship (GDES)"
   },
   {
     degree: "Master of Science and Engineering (M.S.)",

@@ -727,7 +727,14 @@ export default function App() {
                           {idx === 0 && (
                             <div className="inline-flex items-center gap-1.5 bg-sky-500/10 border border-sky-400/20 px-3 py-1 rounded-full text-xs font-bold text-sky-450 text-sky-300 font-mono tracking-wide">
                               <Star className="w-3.5 h-3.5 fill-sky-400 text-sky-400 inline" />
-                              <span>Mitacs Elevate National Innovation Winner</span>
+                              <a 
+                                href="https://www.mitacs.ca/news/2025-mitacs-innovation-awards-celebrate-ideas-research-and-canadian-innovation-talent/?utm_term=&utm_campaign=DIG+-+%5BS%5D+-+LEAD+-+FR+%232&utm_source=adwords&utm_medium=ppc&hsa_acc=5697868819&hsa_cam=22504192319&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=22497663015&gbraid=0AAAAAC6TuA17MScGgL8EgD1pPa0_QZUuU&gclid=CjwKCAiA86_JBhAIEiwA4i9Ju3hBOAaRaNjHiJENH95WXzXbDvcLYjbMcFfShjy7BInGod8DXTKbwxoCAHEQAvD_BwE"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:underline"
+                              >
+                                National award recipient - 2025 Mitacs Innovation Award for Outstanding Innovation
+                              </a>
                             </div>
                           )}
                         </div>
@@ -945,9 +952,6 @@ export default function App() {
                     <h3 className="text-lg font-bold font-display text-white">
                       Federal & Industrial Research Grants
                     </h3>
-                    <p className="text-xs text-slate-400">
-                      Pioneering advanced, multi-institutional capital acquisitions and continuous project roadmapping.
-                    </p>
                   </div>
 
                   <div className="grid grid-cols-1 gap-4" id="grants-timeline">
