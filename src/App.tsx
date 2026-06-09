@@ -177,6 +177,7 @@ function PillarVideoCard({ idx, interest, isSelected, onClick, videoSrc, onVideo
                 src={processedVideoSrc} 
                 className="w-full rounded h-[260px] sm:h-[300px] object-contain bg-black shadow-inner"
                 controls
+                preload="auto"
                 playsInline
                 referrerPolicy="no-referrer"
                 onError={() => {
