@@ -1088,7 +1088,7 @@ export default function App() {
                   {/* SFU wearTECH LABS */}
                   <div className="bg-white border border-slate-200/10 rounded-xl p-1.5 flex items-center justify-center h-12 hover:scale-[1.03] transition-all duration-300 cursor-pointer shadow-sm" title="SFU wearTECH LABS">
                     <img 
-                      src="/sfu_weartech.png" 
+                      src="https://github.com/thkphminus-web/Taeho-s-Portfolio/raw/486b62b035b42ca9aa5dec7ef1884ef0a7c9d8ee/logo1.png" 
                       alt="SFU wearTECH LABS" 
                       className="max-h-7 max-w-[92%] object-contain"
                       referrerPolicy="no-referrer"
@@ -1098,7 +1098,7 @@ export default function App() {
                   {/* Medtronic */}
                   <div className="bg-white border border-slate-200/10 rounded-xl p-1.5 flex items-center justify-center h-12 hover:scale-[1.03] transition-all duration-300 cursor-pointer shadow-sm" title="Medtronic Canada">
                     <img 
-                      src="/medtronic.png" 
+                      src="https://github.com/thkphminus-web/Taeho-s-Portfolio/raw/486b62b035b42ca9aa5dec7ef1884ef0a7c9d8ee/logo2.png" 
                       alt="Medtronic Canada" 
                       className="max-h-7 max-w-[90%] object-contain"
                       referrerPolicy="no-referrer"
@@ -1108,7 +1108,7 @@ export default function App() {
                   {/* Mitacs */}
                   <div className="bg-white border border-slate-200/10 rounded-xl p-1.5 flex items-center justify-center h-12 hover:scale-[1.03] transition-all duration-300 cursor-pointer shadow-sm" title="Mitacs Foundation">
                     <img 
-                      src="/mitacs.png" 
+                      src="https://github.com/thkphminus-web/Taeho-s-Portfolio/raw/486b62b035b42ca9aa5dec7ef1884ef0a7c9d8ee/logo3.jpg" 
                       alt="Mitacs" 
                       className="max-h-6 max-w-[90%] object-contain"
                       referrerPolicy="no-referrer"
@@ -1118,9 +1118,9 @@ export default function App() {
                   {/* Human In Motion Robotics */}
                   <div className="bg-white border border-slate-200/10 rounded-xl p-1.5 flex items-center justify-center h-12 hover:scale-[1.03] transition-all duration-300 cursor-pointer shadow-sm" title="Human in Motion Robotics">
                     <img 
-                      src="/hmr.png" 
+                      src="https://github.com/thkphminus-web/Taeho-s-Portfolio/raw/486b62b035b42ca9aa5dec7ef1884ef0a7c9d8ee/logo4.png" 
                       alt="Human in Motion Robotics" 
-                      className="max-h-8 max-w-[90%] object-contain"
+                      className="max-h-12 max-w-[95%] object-contain"
                       referrerPolicy="no-referrer"
                     />
                   </div>
@@ -1128,7 +1128,7 @@ export default function App() {
                   {/* NSERC */}
                   <div className="bg-white border border-slate-200/10 rounded-xl p-1.5 flex items-center justify-center h-12 hover:scale-[1.03] transition-all duration-300 cursor-pointer shadow-sm" title="NSERC CRSNG">
                     <img 
-                      src="/nserc.png" 
+                      src="https://github.com/thkphminus-web/Taeho-s-Portfolio/raw/486b62b035b42ca9aa5dec7ef1884ef0a7c9d8ee/logo5.png" 
                       alt="NSERC" 
                       className="max-h-8 max-w-[90%] object-contain"
                       referrerPolicy="no-referrer"
@@ -1138,9 +1138,9 @@ export default function App() {
                   {/* Samsung */}
                   <div className="bg-white border border-slate-200/10 rounded-xl p-1.5 flex items-center justify-center h-12 hover:scale-[1.03] transition-all duration-300 cursor-pointer shadow-sm" title="Samsung">
                     <img 
-                      src="/samsung.png" 
+                      src="https://github.com/thkphminus-web/Taeho-s-Portfolio/raw/2d8372ec0d79d85f3e15d03e69dd9246f3d074ef/logo7.png" 
                       alt="Samsung" 
-                      className="max-h-6 max-w-[90%] object-contain"
+                      className="max-h-8 max-w-[90%] object-contain"
                       referrerPolicy="no-referrer"
                     />
                   </div>
