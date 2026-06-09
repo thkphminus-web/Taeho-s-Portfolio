@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-50: #f0f7ff;
+  --color-brand-100: #e0effe;
+  --color-brand-500: #0ea5e9;
+  --color-brand-600: #0284c7;
+  --color-brand-700: #0369a1;
+  --color-brand-900: #0c4a6e;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f8fafc;
+  color: #0f172a;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* ========================================= */
+/* HIGHEST FIDELITY LIGHT THEME OVERRIDES    */
+/* ========================================= */
+#portal-root {
+  background-color: #f8fafc !important;
+  color: #1e293b !important;
+}
+
+/* Typography Overrides */
+#portal-root .text-white,
+#portal-root h1, #portal-root h2, #portal-root h3, #portal-root h4, #portal-root h5 {
+  color: #0f172a !important;
+}
+
+#portal-root .text-slate-100 { color: #0f172a !important; }
+#portal-root .text-slate-200 { color: #1e293b !important; }
+#portal-root .text-slate-300 { color: #334155 !important; }
+#portal-root .text-slate-350 { color: #475569 !important; }
+#portal-root .text-slate-400 { color: #475569 !important; }
+#portal-root .text-slate-450 { color: #475569 !important; }
+#portal-root .text-slate-500 { color: #64748b !important; }
+
+/* Invert Background Ornaments */
+#portal-root .bg-gradient-to-b.from-indigo-950\/20 {
+  background-image: linear-gradient(to bottom, rgba(79, 70, 229, 0.04), rgba(14, 165, 233, 0.01)) !important;
+}
+#portal-root .bg-sky-500\/5 {
+  background-color: rgba(14, 165, 233, 0.03) !important;
+}
+#portal-root .bg-indigo-500\/5 {
+  background-color: rgba(79, 70, 229, 0.03) !important;
+}
+
+/* Borders & Dividers */
+#portal-root .border-slate-900,
+#portal-root .border-slate-850,
+#portal-root .border-slate-800 {
+  border-color: #e2e8f0 !important;
+}
+
+/* General Card Backgrounds */
+#portal-root .bg-slate-950,
+#portal-root .bg-slate-950\/80,
+#portal-root .bg-slate-950\/40,
+#portal-root .bg-slate-950\/20 {
+  background-color: #ffffff !important;
+}
+
+/* Inner Background and Highlights */
+#portal-root .bg-slate-900,
+#portal-root .bg-slate-900\/50,
+#portal-root .bg-slate-900\/60 {
+  background-color: #f1f5f9 !important;
+}
+
+/* Navigation Elements & Selectors */
+#portal-root [id^="tab-nav-btn-"] {
+  background-color: #ffffff !important;
+  color: #475569 !important;
+  border-color: #e2e8f0 !important;
+}
+#portal-root [id^="tab-nav-btn-"].bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, #0ea5e9, #4f46e5) !important;
+  color: #ffffff !important;
+}
+
+/* Header & Navbar */
+#portal-root header {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+}
+#portal-root #header-time-and-telemetry .bg-slate-950 {
+  background-color: #f1f5f9 !important;
+  border-color: #e2e8f0 !important;
+  color: #64748b !important;
+}
+#portal-root #header-time-and-telemetry .text-sky-400 {
+  color: #0284c7 !important;
+}
+#portal-root #header-email-btn {
+  background-color: #f8fafc !important;
+  border-color: #cbd5e1 !important;
+  color: #334155 !important;
+}
+#portal-root #header-email-btn:hover {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+/* Hero Badge */
+#portal-root .bg-sky-500\/10 {
+  background-color: rgba(14, 165, 233, 0.08) !important;
+}
+#portal-root .border-sky-400\/20,
+#portal-root .border-sky-850,
+#portal-root .border-sky-900\/40 {
+  border-color: rgba(14, 165, 233, 0.15) !important;
+}
+#portal-root .text-sky-305,
+#portal-root .text-sky-300,
+#portal-root .text-sky-450 {
+  color: #0284c7 !important;
+}
+
+#portal-root .bg-emerald-950 {
+  background-color: rgba(16, 185, 129, 0.08) !important;
+}
+#portal-root .text-emerald-400 {
+  color: #047857 !important;
+}
+
+#portal-root .bg-amber-500\/10 {
+  background-color: rgba(245, 158, 11, 0.08) !important;
+}
+#portal-root .text-amber-400 {
+  color: #b45309 !important;
+}
+
+/* Buttons and Links keeping text color white */
+#portal-root button.bg-gradient-to-tr,
+#portal-root a.bg-gradient-to-tr,
+#portal-root button.bg-gradient-to-tr *,
+#portal-root a.bg-gradient-to-tr * {
+  color: #ffffff !important;
+  background-image: linear-gradient(to top right, #0ea5e9, #4f46e5) !important;
+}
+
+/* Highlights for research interest selection */
+#portal-root [id^="interest-card-"] {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+}
+#portal-root [id^="interest-card-"].border-sky-400 {
+  background-image: linear-gradient(to bottom right, rgba(238, 242, 255, 0.4), rgba(224, 242, 254, 0.2)) !important;
+  border-color: #38bdf8 !important;
+  box-shadow: 0 4px 12px -2px rgba(14, 165, 233, 0.08) !important;
+}
+
+/* Oscilloscope waveform simulator tweaks */
+#portal-root #signal-sim-hub {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+}
+#portal-root #signal-sim-hub .bg-black\/60 {
+  background-color: #f8fafc !important;
+  border-color: #e2e8f0 !important;
+}
+#portal-root #signal-sim-hub svg path[stroke="#1e293b"] {
+  stroke: #cbd5e1 !important;
+}
+#portal-root #signal-sim-hub svg text {
+  fill: #64748b !important;
+}
+#portal-root #signal-sim-hub svg path[stroke="#0ea5e9"] {
+  stroke: #0284c7 !important;
+  stroke-width: 2.5 !important;
+}
+#portal-root #signal-sim-hub svg path[stroke="#10b981"] {
+  stroke: #059669 !important;
+  stroke-width: 2 !important;
+}
+
+/* Timeline */
+#portal-root #journey-timeline {
+  border-left-color: #e2e8f0 !important;
+}
+#portal-root [id^="education-node-"] span.bg-slate-950,
+#portal-root [id^="experience-node-"] span.bg-slate-950 {
+  background-color: #ffffff !important;
+}
+
+/* Search input elements */
+#portal-root #pub-search-input {
+  background-color: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  color: #0f172a !important;
+}
+#portal-root #pub-search-input::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Publication Details */
+#portal-root [id^="publication-card-"] span.bg-slate-900\/60 {
+  background-color: #f1f5f9 !important;
+  border-color: #e2e8f0 !important;
+  color: #475569 !important;
+}
+#portal-root [id^="citation-export-btn-"] {
+  background-color: #f8fafc !important;
+  border-color: #cbd5e1 !important;
+  color: #475569 !important;
+}
+#portal-root [id^="citation-export-btn-"]:hover {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+/* General profile bottom list & affiliations */
+#portal-root #card-general-profile div.mt-5 {
+  background-color: #f8fafc !important;
+  border-color: #e2e8f0 !important;
+}
+#portal-root #card-general-profile span.bg-slate-900 {
+  background-color: #f8fafc !important;
+  border-color: #e2e8f0 !important;
+  color: #475569 !important;
+}
+
+/* Interactive secure form card fields */
+#portal-root #contact-form-section input,
+#portal-root #contact-form-section textarea {
+  background-color: #f8fafc !important;
+  border-color: #cbd5e1 !important;
+  color: #0f172a !important;
+}
+#portal-root #contact-form-section input:focus,
+#portal-root #contact-form-section textarea:focus {
+  border-color: #4f46e5 !important;
+  background-color: #ffffff !important;
+}
+#portal-root #contact-form-section input::placeholder,
+#portal-root #contact-form-section textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Footer Section */
+#portal-root footer#app-footer {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  border-top-color: #e2e8f0 !important;
+}
+#portal-root footer#app-footer span,
+#portal-root footer#app-footer a {
+  color: #64748b !important;
+}
+#portal-root footer#app-footer span.text-white {
+  color: #0f172a !important;
+}
+#portal-root footer#app-footer a:hover {
+  color: #0f172a !important;
+}
+
